@@ -52,26 +52,6 @@ The case is split into phases, and the README shows which ones apply to your lev
 **We don't expect you to finish everything.** Doing a few phases well is better than rushing through all of
 them.
 
-## 🔍 What we look for
-
-There is no single right answer. We are mostly interested in:
-
-- how you break down a problem and make trade-offs;
-- how you read and build on existing code;
-- the quality and clarity of what you build;
-- how you explain your choices.
-
-Use the tools you use in your day-to-day work, **including AI assistants**. Just make sure you understand
-what they produce: we will ask you about it.
-
-## 🙋 Asking for help
-
-Asking questions is part of the job, not a sign of weakness. Your interviewer is available throughout the
-case: ask a question, request a call, share your screen or ask them to pair with you for a while.
-
-If something blocks you that isn't the point of the exercise, such as Docker not starting or a port already
-in use, reach out straight away rather than losing time on it.
-
 ## 🛠️ Preparing
 
 Make sure you have the following on the machine you will use for the session:
@@ -79,7 +59,16 @@ Make sure you have the following on the machine you will use for the session:
 - [ ] Git, and access to your case repository on GitHub
 - [ ] [Docker](https://docs.docker.com/get-docker/) with Compose **v2.22 or newer** (`docker compose version`)
 - [ ] Your favourite editor or IDE, set up the way you like it
-- [ ] Optionally, your favourite AI assistant
+- [ ] An AI coding agent (harness), installed, logged in and tried out on a small task
+
+We build with AI every day, and we expect you to use an AI coding agent during the case: a tool that can read
+your repository, run commands and make changes for you. If you don't have a favourite yet, pick one of these:
+
+- [Claude Code](https://claude.com/product/claude-code)
+- [Codex](https://github.com/openai/codex)
+- [GitHub Copilot app](https://docs.github.com/en/copilot/concepts/copilot-surfaces/github-copilot-app)
+
+Make sure you understand what your agent produces: we will ask you about it.
 
 Then clone your repository and start the stack as described in its README. If it doesn't start, let us know
 before the session so we can sort it out together.
