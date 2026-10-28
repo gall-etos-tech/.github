@@ -1,7 +1,9 @@
 <div align="center">
   <img src="media/logo.png" width="250" alt="GET logo"/>
 </div>
-  ---
+
+---
+
 <div align="center">
   <p>
     <strong>GET (Gall & Etos Technology)</strong> builds the software behind
