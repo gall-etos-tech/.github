@@ -15,8 +15,8 @@
 If you are reading this, you have been invited to do a technical case with us. Thank you for your time and
 interest; we're looking forward to building something together.
 
-This page explains how the case works, what we look for and how to prepare. The case itself lives in the
-private repository we shared with you.
+This page explains how the interview works, what to do before it and what happens on the day. The case
+itself appears in your private repository on the day of the interview.
 
 ## 🛒 Who we are
 
@@ -36,47 +36,63 @@ services end to end, from idea to production.
 
 You don't need to know all of these. We care much more about how you work than about which tools you have used.
 
-## 🧩 How the case works
+## 🗓️ How the interview works
 
-The case is a small, realistic application from our retail domain. It comes with working code to build on and
-everything you need to run it on your own machine.
+The interview is a single day of about 2.5 hours, in three parts:
 
-1. **Invitation.** We create a private repository in this organisation just for you and invite you to it.
-   Accept the invitation from your email or from [github.com/notifications](https://github.com/notifications).
-2. **Preparation.** Clone the repository and get the stack running before the session (see
-   [Preparing](#-preparing)). Feel free to read the README and look around the code.
-3. **The session.** We work on the case together in your repository, starting from its README. You drive;
-   your interviewer is there to answer questions, discuss choices and pair with you.
+| Part | Duration | What happens                                                                                       |
+| ---- | -------- | -------------------------------------------------------------------------------------------------- |
+| 1    | 45 min   | **Getting to know each other.** A conversation about you, how you work and how we work.            |
+| 2    | ~1h15    | **Working case.** You build on a small, realistic application from our retail domain, on your own. |
+| 3    | 30 min   | **Joint review.** We look at what you built together and talk about your choices.                  |
 
-The case is split into phases, and the README shows which ones apply to your level.
-**We don't expect you to finish everything.** Doing a few phases well is better than rushing through all of
-them.
+### 📬 Before the interview
 
-## 🛠️ Preparing
+1. **Read this page.** It tells you who we are, what we build with and how the day works. There is nothing
+   else to study: the case itself only appears on the day.
+2. **Accept your invitation.** We create a private repository in this organisation just for you and invite
+   you to it. Accept the invitation from your email or from
+   [github.com/notifications](https://github.com/notifications), then clone the repository. It only holds a
+   placeholder README for now; that's expected.
+3. **Get your machine ready.** On the machine you will use for the interview, make sure you have:
 
-Make sure you have the following on the machine you will use for the session:
+   - [ ] Git, and access to your repository on GitHub
+   - [ ] [Docker](https://docs.docker.com/get-docker/) with Compose **v2.22 or newer** (`docker compose version`),
+     running and able to start containers (`docker run --rm hello-world`)
+   - [ ] Ports `3000`, `5432`, `8000` and `8080` free
+   - [ ] Your favourite editor or IDE, set up the way you like it
+   - [ ] An AI coding agent (harness), installed, logged in and tried out on a small task
 
-- [ ] Git, and access to your case repository on GitHub
-- [ ] [Docker](https://docs.docker.com/get-docker/) with Compose **v2.22 or newer** (`docker compose version`)
-- [ ] Your favourite editor or IDE, set up the way you like it
-- [ ] An AI coding agent (harness), installed, logged in and tried out on a small task
+   We build with AI every day, and we expect you to use an AI coding agent during the case: a tool that can
+   read your repository, run commands and make changes for you. If you don't have a favourite yet, pick one of
+   these:
 
-We build with AI every day, and we expect you to use an AI coding agent during the case: a tool that can read
-your repository, run commands and make changes for you. If you don't have a favourite yet, pick one of these:
+   - [Claude Code](https://claude.com/product/claude-code)
+   - [Codex](https://github.com/openai/codex)
+   - [GitHub Copilot app](https://docs.github.com/en/copilot/concepts/copilot-surfaces/github-copilot-app)
 
-- [Claude Code](https://claude.com/product/claude-code)
-- [Codex](https://github.com/openai/codex)
-- [GitHub Copilot app](https://docs.github.com/en/copilot/concepts/copilot-surfaces/github-copilot-app)
+If anything on this list doesn't work, let us know before the interview so we can sort it out together.
 
-Make sure you understand what your agent produces: we will ask you about it.
+### 🚀 On the day
 
-Then clone your repository and start the stack as described in its README. If it doesn't start, let us know
-before the session so we can sort it out together.
+1. **Getting to know each other (45 min).** We start with a conversation, no laptop needed.
+2. **We push the case.** When the working case starts, we push a commit with the case to your repository.
+   Pull it, read the README and start the stack as described there. The first start builds a few containers,
+   so give it a couple of minutes.
+3. **Working case (~1h15).** We tell you which phases of the case to focus on, and then it's over to you.
+   Work the way you normally would, with your own editor and your AI coding agent. Nobody watches over your
+   shoulder, but you are not on your own: an engineer is available throughout, so message them whenever you
+   have a question or get stuck. Asking questions is part of the job.
+   **We don't expect you to finish everything.** Doing a few phases well is better than rushing through all
+   of them.
+4. **Joint review (30 min).** We look at what you built together and talk through your choices. This is a
+   conversation, not a defence. Make sure you understand what your agent produced: we will ask you about it.
 
 ## 🔒 Good to know
 
 - Your repository is private: only you and the GET people involved in your process can see it.
 - Please don't share the case or publish your solution.
+- We remove your access to the repository after the interview.
 
 ---
 
