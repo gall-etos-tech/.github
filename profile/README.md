@@ -40,12 +40,14 @@ You don't need to know all of these. We care much more about how you work than a
 
 ## 🗓️ How the interview works
 
-The interview is a single day of about 2.5 hours, in three parts:
+The interview is a single day of about 2.5 hours, in three parts with a short break between each:
 
 | Part | Duration | What happens                                                                                       |
 | ---- | -------- | -------------------------------------------------------------------------------------------------- |
 | 1    | 45 min   | **Getting to know each other.** A conversation about you, how you work and how we work.            |
-| 2    | ~1h15    | **Working case.** You build on a small, realistic application from our retail domain, on your own. |
+|      | 5 min    | **Break.** Grab a coffee while we push the case to your repository.                                |
+| 2    | ~1h05    | **Working case.** You build on a small, realistic application from our retail domain, on your own. |
+|      | 5 min    | **Break.** Commit and push your work, then stretch your legs while we have a first look.           |
 | 3    | 30 min   | **Joint review.** We look at what you built together and talk about your choices.                  |
 
 ### 📬 Before the interview
@@ -78,16 +80,17 @@ If anything on this list doesn't work, let us know before the interview so we ca
 ### 🚀 On the day
 
 1. **Getting to know each other (45 min).** We start with a conversation, no laptop needed.
-2. **We push the case.** When the working case starts, we push a commit with the case to your repository.
-   Pull it, read the README and start the stack as described there. The first start builds a few containers,
-   so give it a couple of minutes.
-3. **Working case (~1h15).** We tell you which phases of the case to focus on, and then it's over to you.
+2. **Break (5 min).** Grab a coffee. Meanwhile, we push a commit with the case to your repository.
+3. **Working case (~1h05).** Pull the case, read the README and start the stack as described there. The first
+   start builds a few containers, so give it a couple of minutes. We tell you which phases of the case to focus
+   on, and then it's over to you.
    Work the way you normally would, with your own editor and your AI coding agent. Nobody watches over your
    shoulder, but you are not on your own: an engineer is available throughout, so message them whenever you
    have a question or get stuck. Asking questions is part of the job.
    **We don't expect you to finish everything.** Doing a few phases well is better than rushing through all
    of them.
-4. **Joint review (30 min).** We look at what you built together and talk through your choices. This is a
+4. **Break (5 min).** Commit and push your work, so we can have a first look at it before the review.
+5. **Joint review (30 min).** We look at what you built together and talk through your choices. This is a
    conversation, not a defence. Make sure you understand what your agent produced: we will ask you about it.
 
 ## 🔒 Good to know
