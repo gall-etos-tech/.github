@@ -1,8 +1,5 @@
 <div align="center">
   <img src="media/logo.png" width="250" alt="GET logo"/>
-
-  <h1>Welcome to your GET case 👋</h1>
-
   <p>
     <strong>GET (Gall & Etos Technology)</strong> builds the software behind
     <a href="https://www.etos.nl">Etos</a> and <a href="https://www.gall.nl">Gall & Gall</a>,
